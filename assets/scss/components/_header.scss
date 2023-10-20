@@ -1,0 +1,90 @@
+// header start
+
+#header{
+    background-image: url(https://preview.colorlib.com/theme/sierra/img/home-slider/slider-bg-1.png.webp);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+
+    .header-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 1400px;
+        margin: 50px auto;
+        padding: 0 50px;
+        .header-left{
+            width: 60%;
+
+            h1{
+                // font-size: 4.5rem;
+                font-size: clamp(2rem, -1rem + 8vw, 4.5rem);
+                font-weight: 500;
+            }
+            h3{
+                font-size: 1.5rem;
+                padding: 20px 0 50px;
+            }
+    
+            button{
+                background: linear-gradient(to right, #6fbcfe 0%, #998dff 51%, #6fbcfe 100%);
+                border: none ;
+                border-radius: 20px;
+                padding: 20px 40px;
+                color: #fff;
+                font-weight: 700;
+                font-size: 0.9rem;
+    
+            }
+        }
+        .header-right{
+            width: 40%;
+        }
+       
+    }
+}
+
+// header end
+
+
+@media screen and(max-width:992px){
+   #header{
+    .header-content{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 20px auto;
+        padding: 30px;
+
+
+        .header-left{
+            width: 100%;
+        }
+        .header-right{
+            width: 100%;
+        }
+       
+    }
+   }
+}
+
+@media screen and(max-width:992px){
+    #header{
+     .header-content{
+         display: flex;
+         flex-direction: column;
+         text-align: center;
+         margin: 20px auto;
+         padding: 30px;
+ 
+ 
+         .header-left{
+             width: 100%;
+         }
+         .header-right{
+             width: 100%;
+         }
+        
+     }
+    }
+ }
